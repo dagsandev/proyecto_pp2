@@ -1,0 +1,47 @@
+html {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to bottom, #022b69, #031530ec);
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.logo img{
+    width: 5rem;
+    border-radius: 10px;
+}
+
+.form-container {
+    max-width: 800px;
+    width: 100%;
+    padding: 40px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 6px;
+    background-color: hsl(219, 100%, 86%);
+    color: black;
+    font-weight: 500;
+    
+}
+
+form{
+    width: 100%;
+}
+
+.btn-container{
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    margin-bottom: 5px;
+}
+
+a{
+    font-size: 12px;
+}
+
