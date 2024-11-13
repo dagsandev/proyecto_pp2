@@ -1,35 +1,51 @@
-const loginForm = document.querySelector('form');
+const BASE_API_URL = "http://localhost:5140/api/";
 
-loginForm.addEventListener("submit", async (e) =>{
-    e.preventDefault();
+const loginForm = document.getElementById("login-form");
 
-    const email = document.getElementById("email").value;
-    const password = document.getElementById("password").value;
+loginForm.addEventListener("submit", (e) => {
+  e.preventDefault();
 
-    const data = {
-        username: email,
-        password: password
-    };
+  const email = document.getElementById("username").value;
+  const password = document.getElementById("password").value;
 
-    try {
-        const response = await fetch('http://localhost:4000/auth/login', {
-            method: "POST",
-            headers: {
-                "Content-Type": "application/json"
-            },
-            body: JSON.stringify(data)
-        });
+  const formData = {
+    username: email,
+    password: password,
+  };
 
-        const result = await response.json();
-
-        if(response.ok){
-            alert(result.message);
-            window.location.href = 'index.html';
-        } else {
-            alert(result.message);
-        }
-
-    } catch (error){
-            alert("Error al intentar iniciar sesión")
-        }
+  loginUser(formData);
 });
+
+async function loginUser(formData) {
+  try {
+    const response = await fetch(BASE_API_URL + "auth/login", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify(formData),
+    });
+
+    
+
+    if (response.ok) {
+        const result = await response.json();
+        alert(result.message);
+        window.location.href = "index.html";
+    } else {
+        const error = await response.json();
+      alert(
+        "Error al iniciar sesión: " +
+          "\n" +
+          error.title +
+          "\n" +
+          error.message +
+          "\n" +
+          error.detail
+      );
+    }
+    } catch (error) {
+        console.error("Error en la solicitud:", error);
+        alert("Error al intentar iniciar sesión");
+    }
+}
