@@ -1,4 +1,5 @@
 const BASE_API_URL = "http://localhost:5140/api/";
+const LoginRedirectUrl = "http://127.0.0.1:5500/src/pages/auth/login.html";
 
 const registerForm = document.getElementById("register-form");
 
@@ -32,7 +33,7 @@ async function registrarUsuario(formData) {
       const result = await response.json();
       alert("Usuario registrado exitosamente.");
 
-      window.location.href = `${BASE_API_URL}auth/login`;
+      window.location.href = LoginRedirectUrl;
     } else {
       const error = await response.json();
       alert(

@@ -1,4 +1,5 @@
 const BASE_API_URL = "http://localhost:5140/api/";
+const IndexRedirectUrl = "http://127.0.0.1:5500/src/pages/index.html";
 
 const loginForm = document.getElementById("login-form");
 
@@ -31,7 +32,7 @@ async function loginUser(formData) {
     if (response.ok) {
         const result = await response.json();
         alert(result.message);
-        window.location.href = "index.html";
+        window.location.href = IndexRedirectUrl;
     } else {
         const error = await response.json();
       alert(
