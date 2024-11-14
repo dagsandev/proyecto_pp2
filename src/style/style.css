@@ -101,6 +101,11 @@ body {
     font-size: 0.9rem;
 }
 
+.card img {
+    cursor: pointer;
+    transition: transform 0.3s ease;
+  }
+
 footer {
     background-color: white;
     text-align: center;
