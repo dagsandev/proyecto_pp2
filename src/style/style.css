@@ -59,6 +59,12 @@ body {
     padding-bottom: 0.25rem;
 }
 
+/* COMICS SEGÚN EL DIA */
+
+.comics-dias{
+    padding: 2.6rem;
+}
+
 /* Contenedor de comics */
 .comics-container {
     display: grid;
@@ -254,6 +260,7 @@ footer img {
     opacity: 0;
     transition: opacity 0.3s ease;
     padding: 0.3rem;
+    border: 1rem solid palevioletred ;
 }
 
 .card:hover .overlay {
@@ -284,6 +291,7 @@ footer img {
     opacity: 0;
     transition: opacity 0.3s ease;
     padding: 0.3rem;
+    border: 1rem solid rgba(105, 0, 105, 0.801) ;
 }
 
 .card:hover .overlay-fantasia {
@@ -291,7 +299,7 @@ footer img {
 }
 
 .overlay-fantasia .overlay-text {
-    color: #333;
+    color: white;
     /* Color del texto */
     font-size: 0.8rem;
     font-weight: bold;
@@ -314,6 +322,7 @@ footer img {
     opacity: 0;
     transition: opacity 0.3s ease;
     padding: 0.3rem;
+    border: 1rem solid rgba(33, 36, 226, 0.562) ;
 }
 
 .card:hover .overlay-paranormal {
