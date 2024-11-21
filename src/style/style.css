@@ -129,10 +129,16 @@ body {
 
 .genero-fantasia{
     background-color: rgba(68, 227, 255, 0.486);
+    height: 100vh; /* Ocupa al menos toda la pantalla */
+    display: flex; /* Centra el contenido si quieres */
+    flex-direction: column;
+    align-items: center; /* Centrado horizontal */
+    box-sizing: border-box;
 }
 
 .genero-fantasia .comics-genero{
-    padding-bottom: 10rem;
+    padding-top: 10rem;
+    padding: 10rem;
 }
 
 .genero-fantasia h3#fantasia{
@@ -142,7 +148,6 @@ body {
     font-family: "Economica", sans-serif;
     font-weight: 400;
     font-style: normal;
-    padding-top: 1rem;
     font-size: 3rem;
 }
 
@@ -150,10 +155,16 @@ body {
 
 .genero-comedia{
     background-color: rgba(255, 68, 68, 0.486);
+    height: 100vh;
+    display: flex; /* Centra el contenido si quieres */
+    flex-direction: column;
+    align-items: center; /* Centrado horizontal */
+    box-sizing: border-box;
 }
 
 .genero-comedia .comics-genero{
-    padding-bottom: 10rem;
+    padding-top: 10rem;
+    padding: 10rem;
 }
 
 .genero-comedia h3#comedia{
@@ -163,7 +174,6 @@ body {
     font-family: "Economica", sans-serif;
     font-weight: 400;
     font-style: normal;
-    padding-top: 1rem;
     font-size: 3rem;
 }
 
