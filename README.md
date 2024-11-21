@@ -4,7 +4,7 @@
 Desarrollo de una aplicación académica para la materia Desarrollo de sistemas de Información del IFTS 11. Consiste
 
 ## Integrantes
-* Bleille Franco
+* Bleile Franco
 * Daglio Santiago
 * Zamojski Paula
 
