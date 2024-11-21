@@ -47,12 +47,6 @@ Es necesario clonar el repositorio dos veces: una para la rama de desarrollo del
 
 ### 1. Crear la carpeta principal del proyecto
 
-Ejecuta los siguientes comandos para crear la estructura inicial del proyecto:
-
-```bash
-mkdir pp2
-cd pp2
-```
 * crear carpeta en el lugar deseado:
 ```
  mkdir pp2
