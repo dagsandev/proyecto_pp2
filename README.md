@@ -17,7 +17,9 @@ Desarrollo de una aplicación académica para la materia Desarrollo de sistemas 
 * SQLServer
 
 ## Librerías utilizadas en Visual Studio:
-(imagen)
+
+![Img readme](/img-readme/15.png)
+
 * BCrypt.Net-Next(4.0.3): Esta librería se utiliza para el hashing de contraseñas. 
 * Microsoft.AspNet.WebApi.Cors(5.3.0): Esta librería proporciona soporte para CORS (Cross-Origin Resource Sharing) en aplicaciones ASP.NET Web API.
 * Microsoft.EntityFrameworkCore(8.0.10): Entity Framework Core es una librería de ORM (Object-Relational Mapping) para aplicaciones .NET. Permite trabajar con bases de datos utilizando objetos C# en lugar de SQL, facilitando la interacción con las bases de datos y el manejo de datos.
@@ -103,44 +105,56 @@ git checkout backend
 
 
 * Abrimos Visual Studio 2022, y elegimos “Abrir Proyecto o solución”
-(imagen)
+  
+![Img readme](/img-readme/1.png)
 
 * Elegimos el archivo solución:
-(imagen)
+  
+![Img readme](/img-readme/2.png)
 
 * Listo, tenemos el proyecto importado en VS:
-(imagen)
+
+![Img readme](/img-readme/3.png)
 
 * Con el botón de play iniciamos el proyecto y se abrirá la pagina de Swagger en el navegador automáticamente:
-(imagen)
 
-(imagen)
+![Img readme](/img-readme/4.png)
+
+![Img readme](/img-readme/5.png)
 
 * Los únicos métodos implementados son el de Login y Registro, los de User no se realizaron y son parte de la plantilla importada por defecto al crear el proyecto.
 
 * Para Abrir el proyecto FrontEnd, abrir Visual Studio Code y presionar el botón de ‘Abrir carpeta’
-(imagen)
+
+![Img readme](/img-readme/6.png)
 
 * Seleccionamos proyecto_pp2 y presionamos ‘Seleccionar Carpeta’
-(imagen)
+
+![Img readme](/img-readme/7.png)
 
 * Listo, proyecto importado en VS Code:
-(imagen)
+
+![Img readme](/img-readme/8.png)
 
 * Posicionarse en la pagina de login.html, botón derecho, y seleccionar  ‘abrir en el navegador por defecto’ o ‘abrir con servidor en vivo’
-(imagen)
-(imagen)
+
+![Img readme](/img-readme/9.png)
+
+![Img readme](/img-readme/10.png)
 
 * Podemos crear una cuenta si no tenemos, para eso nos dirigmos al link:
 ¿No tienes una cuenta? Crear una
 * Nos dirige al formulario de Registro:
-(imagen)
+
+![Img readme](/img-readme/11.png)
 
 * Antes de registrarse debemos abrir SQL Server y nos conectamos, sino no podremos registrarnos:
-(imagen)
+
+![Img readme](/img-readme/12.png)
 
 * En Visual Studio, en el archivo appsetting.json
-(imagen)
+
+![Img readme](/img-readme/13.png)
 
 * Se encuentra la configuración para conectarse a la Base de Datos en Sql Server:
 "ConnectionStrings": {
@@ -150,7 +164,7 @@ El campo “Catalog=……………..” es el nombre que le daremos a la base d
 
 * Para crear la base de datos, vamos a Tools – NuGet Package Manager – Package Manager Console
 
-(imagen)
+![Img readme](/img-readme/14.png)
 
 * En la consola que se despliega, ejecutaremos el siguiente comando:
 ```
