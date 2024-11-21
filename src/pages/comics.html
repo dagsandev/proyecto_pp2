@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../style/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
     <title>ComicsApp</title>
 </head>
 <body>
@@ -14,134 +15,244 @@
         <div>
             <a href="../pages/index.html">INICIO</a>
             <a href="comics.html" class="active">GÉNEROS</a>
-            <a href="#">POPULARES</a>
         </div>
         <div>
-            <button style="background-color: #333; color: #fff; border: none; padding: 0.5rem 1rem; border-radius: 5px;">Publicar</button>
-            <a href="./auth/login.html">Iniciar sesión</a>
+            <a class="a-iniciosesion" href="./auth/login.html" style="background-color: #333; color: #fff; border: none; padding: 0.5rem 1rem; border-radius: 5px;">Iniciar sesión</a>
         </div>
     </nav>
 
     <!-- Navbar de géneros -->
-    <nav class="genre-nav">
-        <a href="#" class="active">FANTASÍA</a>
-        <a href="#">COMEDIA</a>
-        <a href="#">ACCIÓN</a>
-        <a href="#">ROMANCE</a>
-        <a href="#">PARANORMAL</a>
-        <a href="#">TERROR</a>
-    </nav>
+    <div class="menu">
+        <ul>
+          <li id="#fantasia" class="menu-item"><a href="#fantasia">FANTASÍA</a></li>
+          <li id="#comedia" class="menu-item"><a href="#comedia">COMEDIA</a></li>
+          <li id="#accion" class="menu-item"><a href="#accion">ACCIÓN</a></li>
+          <li id="#romance" class="menu-item"><a href="#romance">ROMANCE</a></li>
+          <li id="#paranormal" class="menu-item"><a href="#paranormal">PARANORMAL</a></li>
+          <li id="#terror" class="menu-item"><a href="#terror">TERROR</a></li>
+          <!-- Más elementos aquí -->
+        </ul>
+    </div>
 
     <!-- Contenedor de comics -->
-    <div class="comics-container">
-        <div class="comic-item">
-            <img src="../img/01Thumb_PC.jpg" alt="Comic 1">
-            <div class="comic-info">
-                <h3>La emperatriz divorciada</h3>
-                <p>Alphatart / Sumpul</p>
+    <div class="genero-fantasia">
+        <h3 style="text-align: center; padding-top: 1.2rem;" id="fantasia">FANTASÍA</h3>
+        <div class="comics-genero">
+            <div class="row row-cols-1 row-cols-md-3 g-7 p-4">
+                <div class="col">
+                    <div class="card" style="width: 20rem;"> <!-- Agregarlo en style -->
+                        <img src="../img/15Thumb_PC.jpg" class="card-img" alt="...">
+                        <a href="../historias/ep0_Operacion_Amor_Puro.pdf" target="_blank" rel="noopener noreferrer">
+                            <h3 class="card-title">Operacion: Amor Puro</h3>
+                        </a>
+                        <p class="card-text">Romance.</p>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card" style="width: 20rem;">
+                        <img src="../img/15Thumb_PC.jpg" class="card-img" alt="...">
+                        <a href="../historias/ep0_Operacion_Amor_Puro.pdf" target="_blank" rel="noopener noreferrer">
+                            <h3 class="card-title">Operacion: Amor Puro</h3>
+                        </a>
+                        <p class="card-text">Romance.</p>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card" style="width: 20rem;">
+                        <img src="../img/15Thumb_PC.jpg" class="card-img" alt="...">
+                        <a href="../historias/ep0_Operacion_Amor_Puro.pdf" target="_blank" rel="noopener noreferrer">
+                            <h3 class="card-title">Operacion: Amor Puro</h3>
+                        </a>
+                        <p class="card-text">Romance.</p>
+                    </div>
+                </div>
             </div>
         </div>
-        <div class="comic-item">
-            <img src="../img/6Thumb_PC.jpg" alt="Comic 2">
-            <div class="comic-info">
-                <h3>A fuego lento</h3>
-                <p>Team SABANA / Team J</p>
-            </div>
-        </div>
-        <div class="comic-item">
-            <img src="../img/804_Thumbnail_PC.jpg" alt="Comic 3">
-            <div class="comic-info">
-                <h3>Solo un amanecer</h3>
-                <p>Kang Ki / Woo Jihye</p>
-            </div>
-        </div>
-        <div class="comic-item">
-            <img src="../img/8EsteMarimonio_Refresh_Thumbnail_PC.jpg" alt="Comic 4">
-            <div class="comic-info">
-                <h3>Este matrimonio está destinado a fracasar</h3>
-                <p>CHOKAM / Cheong-gwa</p>
-            </div>
-        </div>
-        <div class="comic-item">
-            <img src="../img/4Thumb_PC.jpg" alt="Comic 5">
-            <div class="comic-info">
-                <h3>Llora, o mejor aún, suplica</h3>
-                <p>VAN.J / Solche</p>
-            </div>
-        </div>
-        <div class="comic-item">
-            <img src="../img/6Thumb_PC (1).jpg" alt="Comic 6">
-            <div class="comic-info">
-                <h3>Mi lujuriosa deidad</h3>
-                <p>Seo-Ah</p>
-            </div>
-        </div>
-        <div class="comic-item">
-            <img src="../img/61Love-4-A-Walk_Thumbnail_PC.jpg" alt="Comic 7">
-            <div class="comic-info">
-                <h3>Love 4 a Walk</h3>
-                <p>Nuria Sanguino</p>
-            </div>
-        </div>
-        <div class="comic-item">
-            <img src="../img/4Thumb_PC (1).jpg" alt="Comic 8">
-            <div class="comic-info">
-                <h3>Una niña parecida a mí</h3>
-                <p>FLADA / PATNOC</p>
-            </div>
-        </div>
-        <div class="comic-item">
-            <img src="../img/7Thumb_PC.jpg" alt="Comic 9">
-            <div class="comic-info">
-                <h3>El romance de Iseop</h3>
-                <p>248 / Anna Kim</p>
-            </div>
-        </div>
-        <div class="comic-item">
-            <img src="../img/0Libreensue_os_Thumbnail_Desktop.jpg" alt="Comic 10">
-            <div class="comic-info">
-                <h3>Libre en sueños</h3>
-                <p>2L</p>
-            </div>
-        </div>
-        <div class="comic-item">
-            <img src="../img/3TeenageMercenary_desktop_thumbnail.jpg" alt="Comic 11">
-            <div class="comic-info">
-                <h3>Mercenario adolescente</h3>
-                <p>YC / Rakyeon</p>
-            </div>
-        </div>
-        <div class="comic-item">
-            <img src="./img/3Contrato+a+mordiscos_thumbnail_desktop.jpg" alt="Comic 12">
-            <div class="comic-info">
-                <h3>Contrato a mordiscos</h3>
-                <p>sungeun</p>
-            </div>
-        </div>
-        <div class="comic-item">
-            <img src="../img/5Thumb_PC.jpg" alt="Comic 13">
-            <div class="comic-info">
-                <h3>Pedro, el asesino</h3>
-                <p>Lim Lina / Kim Junghyun</p>
-            </div>
-        </div>
-        <div class="comic-item">
-            <img src="../img/92.jpg" alt="Comic 14">
-            <div class="comic-info">
-                <h3>Tu trono</h3>
-                <p>SAM</p>
-            </div>
-        </div>
-        <div class="comic-item">
-            <img src="../img/1thumb_ipad_510x510.png" alt="Comic 2">
-            <div class="comic-info">
-                <h3>Serena</h3>
-                <p>Ina</p>
-            </div>
-        </div>
-
-        <!-- Agrega más cómics según sea necesario -->
     </div>
+
+    <!--GENERO COMEDIA-->
+
+    <div class="genero-comedia">
+        <h3 style="text-align: center;" id="comedia">COMEDIA</h3>
+        <div class="comics-genero">
+            <div class="row row-cols-1 row-cols-md-3 g-7 p-4">
+                <div class="col">
+                    <div class="card" style="width: 20rem;"> <!-- Agregarlo en style -->
+                        <img src="../img/15Thumb_PC.jpg" class="card-img" alt="...">
+                        <a href="../historias/ep0_Operacion_Amor_Puro.pdf" target="_blank" rel="noopener noreferrer">
+                            <h3 class="card-title">Operacion: Amor Puro</h3>
+                        </a>
+                        <p class="card-text">Romance.</p>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card" style="width: 20rem;">
+                        <img src="../img/15Thumb_PC.jpg" class="card-img" alt="...">
+                        <a href="../historias/ep0_Operacion_Amor_Puro.pdf" target="_blank" rel="noopener noreferrer">
+                            <h3 class="card-title">Operacion: Amor Puro</h3>
+                        </a>
+                        <p class="card-text">Romance.</p>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card" style="width: 20rem;">
+                        <img src="../img/15Thumb_PC.jpg" class="card-img" alt="...">
+                        <a href="../historias/ep0_Operacion_Amor_Puro.pdf" target="_blank" rel="noopener noreferrer">
+                            <h3 class="card-title">Operacion: Amor Puro</h3>
+                        </a>
+                        <p class="card-text">Romance.</p>
+                    </div>
+                </div>
+            </div>     
+        </div>
+    </div>
+
+    <!--GENERO ACCIÓN-->
+    <div class="genero-accion">
+        <h3 style="text-align: center;" id="accion">ACCIÓN</h3>
+        <div class="comics-genero">
+            <div class="row row-cols-1 row-cols-md-3 g-7 p-4">
+                <div class="col">
+                    <div class="card" style="width: 20rem;"> <!-- Agregarlo en style -->
+                        <img src="../img/15Thumb_PC.jpg" class="card-img" alt="...">
+                        <a href="../historias/ep0_Operacion_Amor_Puro.pdf" target="_blank" rel="noopener noreferrer">
+                            <h3 class="card-title">Operacion: Amor Puro</h3>
+                        </a>
+                        <p class="card-text">Romance.</p>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card" style="width: 20rem;">
+                        <img src="../img/15Thumb_PC.jpg" class="card-img" alt="...">
+                        <a href="../historias/ep0_Operacion_Amor_Puro.pdf" target="_blank" rel="noopener noreferrer">
+                            <h3 class="card-title">Operacion: Amor Puro</h3>
+                        </a>
+                        <p class="card-text">Romance.</p>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card" style="width: 20rem;">
+                        <img src="../img/15Thumb_PC.jpg" class="card-img" alt="...">
+                        <a href="../historias/ep0_Operacion_Amor_Puro.pdf" target="_blank" rel="noopener noreferrer">
+                            <h3 class="card-title">Operacion: Amor Puro</h3>
+                        </a>
+                        <p class="card-text">Romance.</p>
+                    </div>
+                </div>
+            </div>     
+        </div>
+    </div>
+
+    <!--GENERO ROMANCE-->
+    <div class="genero-romance">
+        <h3 style="text-align: center;" id="romance">ROMANCE</h3>
+        <div class="comics-genero">
+            <div class="row row-cols-1 row-cols-md-3 g-7 p-4">
+                <div class="col">
+                    <div class="card" style="width: 20rem;"> <!-- Agregarlo en style -->
+                        <img src="../img/15Thumb_PC.jpg" class="card-img" alt="...">
+                        <a href="../historias/ep0_Operacion_Amor_Puro.pdf" target="_blank" rel="noopener noreferrer">
+                            <h3 class="card-title">Operacion: Amor Puro</h3>
+                        </a>
+                        <p class="card-text">Romance.</p>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card" style="width: 20rem;">
+                        <img src="../img/15Thumb_PC.jpg" class="card-img" alt="...">
+                        <a href="../historias/ep0_Operacion_Amor_Puro.pdf" target="_blank" rel="noopener noreferrer">
+                            <h3 class="card-title">Operacion: Amor Puro</h3>
+                        </a>
+                        <p class="card-text">Romance.</p>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card" style="width: 20rem;">
+                        <img src="../img/15Thumb_PC.jpg" class="card-img" alt="...">
+                        <a href="../historias/ep0_Operacion_Amor_Puro.pdf" target="_blank" rel="noopener noreferrer">
+                            <h3 class="card-title">Operacion: Amor Puro</h3>
+                        </a>
+                        <p class="card-text">Romance.</p>
+                    </div>
+                </div>
+            </div>     
+        </div>
+    </div>
+
+    <!--GENERO PARANORMAL-->
+    <div class="genero-paranormal">
+        <h3 style="text-align: center;" id="paranormal">PARANORMAL</h3>
+        <div class="comics-genero">
+            <div class="row row-cols-1 row-cols-md-3 g-7 p-4">
+                <div class="col">
+                    <div class="card" style="width: 20rem;"> <!-- Agregarlo en style -->
+                        <img src="../img/15Thumb_PC.jpg" class="card-img" alt="...">
+                        <a href="../historias/ep0_Operacion_Amor_Puro.pdf" target="_blank" rel="noopener noreferrer">
+                            <h3 class="card-title">Operacion: Amor Puro</h3>
+                        </a>
+                        <p class="card-text">Romance.</p>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card" style="width: 20rem;">
+                        <img src="../img/15Thumb_PC.jpg" class="card-img" alt="...">
+                        <a href="../historias/ep0_Operacion_Amor_Puro.pdf" target="_blank" rel="noopener noreferrer">
+                            <h3 class="card-title">Operacion: Amor Puro</h3>
+                        </a>
+                        <p class="card-text">Romance.</p>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card" style="width: 20rem;">
+                        <img src="../img/15Thumb_PC.jpg" class="card-img" alt="...">
+                        <a href="../historias/ep0_Operacion_Amor_Puro.pdf" target="_blank" rel="noopener noreferrer">
+                            <h3 class="card-title">Operacion: Amor Puro</h3>
+                        </a>
+                        <p class="card-text">Romance.</p>
+                    </div>
+                </div>
+            </div>     
+        </div>
+    </div>
+
+    <!--GENERO TERROR-->
+    <div class="genero-terror">
+        <h3 style="text-align: center;" id="terror">TERROR</h3>
+        <div class="comics-genero">
+            <div class="row row-cols-1 row-cols-md-3 g-7 p-4">
+                <div class="col">
+                    <div class="card" style="width: 20rem;"> <!-- Agregarlo en style -->
+                        <img src="../img/15Thumb_PC.jpg" class="card-img" alt="...">
+                        <a href="../historias/ep0_Operacion_Amor_Puro.pdf" target="_blank" rel="noopener noreferrer">
+                            <h3 class="card-title">Operacion: Amor Puro</h3>
+                        </a>
+                        <p class="card-text">Romance.</p>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card" style="width: 20rem;">
+                        <img src="../img/15Thumb_PC.jpg" class="card-img" alt="...">
+                        <a href="../historias/ep0_Operacion_Amor_Puro.pdf" target="_blank" rel="noopener noreferrer">
+                            <h3 class="card-title">Operacion: Amor Puro</h3>
+                        </a>
+                        <p class="card-text">Romance.</p>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card" style="width: 20rem;">
+                        <img src="../img/15Thumb_PC.jpg" class="card-img" alt="...">
+                        <a href="../historias/ep0_Operacion_Amor_Puro.pdf" target="_blank" rel="noopener noreferrer">
+                            <h3 class="card-title">Operacion: Amor Puro</h3>
+                        </a>
+                        <p class="card-text">Romance.</p>
+                    </div>
+                </div>
+            </div>     
+        </div>
+    </div>
+
+
+    <!-- Agrega más cómics según sea necesario -->
 
     <footer>
         <img src="../img/comicsapp.png" alt="">
@@ -150,5 +261,10 @@
         <p>E-mail : ayuda@comicsapp.com   Tel : (011) 1234-5678</p>
     </footer>
 
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+
+    <script src="../script/script.js"></script>
 </body>
 </html>

@@ -1,4 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Creepster&family=Dancing+Script:wght@400..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Creepster&family=Dancing+Script:wght@400..700&family=Nosifer&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Creepster&family=Dancing+Script:wght@400..700&family=Economica:ital,wght@0,400;0,700;1,400;1,700&family=Nosifer&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=STIX+Two+Text:ital,wght@0,400..700;1,400..700&display=swap');
 
 /* Estilos básicos */
 body {
@@ -25,17 +28,31 @@ body {
     width: 5rem;
 }
 
-.main-nav a {
-    color: #333;
+.main-nav a:not(.a-iniciosesion){
+    font-family: "Economica", sans-serif;
+    font-weight: 700;
+    font-style: normal;
     text-decoration: none;
+    color: black;
+    font-size: 1.4rem;
+    letter-spacing: 0.2rem;
     margin: 0 1rem;
+}
+
+.main-nav .a-iniciosesion{
+    font-family: "Economica", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    text-decoration: none;
+    color: black;
+    font-size: 1.4rem;
 }
 
 .main-nav a:hover {
     text-decoration: underline;
 }
 
-/* Navbar de géneros */
+/* Navbar */
 .genre-nav {
     display: flex;
     justify-content: center;
@@ -59,53 +76,190 @@ body {
     padding-bottom: 0.25rem;
 }
 
+.titulo-genero{
+    border-top: 1px solid grey;
+    border-bottom: 1px solid grey;
+    padding: 1rem;
+}
+
+/* NAVEGADOR DE GENEROS */
+
+.menu{
+    border-top: 1px solid grey;
+    border-bottom: 1px solid grey;
+}
+
+.menu ul{
+    display: flex;
+    font-size: 1.5rem;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+}
+
+.menu li{
+    padding: 1rem;
+}
+
+.menu ul li a{
+    color: rgb(2, 2, 2);
+    text-decoration: none;
+    letter-spacing: 0.3rem;
+    font-family: "Economica", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.menu ul li:hover{
+    background-color: rgb(137, 137, 253);
+}
+
+.menu ul li a:hover{
+    color: white;
+}
+
 /* COMICS SEGÚN EL DIA */
 
 .comics-dias{
     padding: 2.6rem;
 }
 
-/* Contenedor de comics */
-.comics-container {
-    display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    gap: 1.5rem;
-    padding: 5rem;
-    max-width: 1200px;
-    margin: auto;
+/* APARTADO GENERO FANTASÍA */
+
+.genero-fantasia{
+    background-color: rgba(68, 227, 255, 0.486);
 }
 
-.comic-item {
-    background-color: #fff;
-    border-radius: 8px;
-    overflow: hidden;
+.genero-fantasia .comics-genero{
+    padding-bottom: 10rem;
 }
 
-.comic-item img {
-    width: 100%;
-    height: auto;
+.genero-fantasia h3#fantasia{
+    color: rgb(2, 2, 2);
+    text-decoration: underline;
+    letter-spacing: 0.3rem;
+    font-family: "Economica", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    padding-top: 1rem;
+    font-size: 3rem;
 }
 
-.comic-info {
-    padding: 1rem;
+/* APARTADO GENERO COMEDIA */
+
+.genero-comedia{
+    background-color: rgba(255, 68, 68, 0.486);
 }
 
-.comic-info h3 {
-    margin: 0.5rem 0;
-    font-size: 1rem;
-    color: #333;
+.genero-comedia .comics-genero{
+    padding-bottom: 10rem;
 }
 
-.comic-info p {
-    margin: 0;
-    font-size: 0.9rem;
-    color: #777;
+.genero-comedia h3#comedia{
+    color: rgb(2, 2, 2);
+    text-decoration: underline;
+    letter-spacing: 0.3rem;
+    font-family: "Economica", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    padding-top: 1rem;
+    font-size: 3rem;
 }
 
-.comic-info .likes {
-    color: #00d564;
-    font-size: 0.9rem;
+/* APARTADO GENERO ACCIÓN */
+
+.genero-accion{
+    background-color: rgba(233, 181, 84, 0.486);
 }
+
+.genero-accion .comics-genero{
+    padding-bottom: 10rem;
+}
+
+.genero-accion h3#accion{
+    color: rgb(2, 2, 2);
+    text-decoration: underline;
+    letter-spacing: 0.3rem;
+    font-family: "Economica", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    padding-top: 1rem;
+    font-size: 3rem;
+}
+
+/* APARTADO GENERO ROMANCE */
+
+.genero-romance{
+    background-color: rgba(255, 192, 203, 0.651);
+}
+
+.genero-romance .comics-genero{
+    padding-bottom: 10rem;
+}
+
+.genero-romance h3#romance{
+    color: rgb(2, 2, 2);
+    text-decoration: underline;
+    letter-spacing: 0.3rem;
+    font-family: "Economica", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    padding-top: 1rem;
+    font-size: 3rem;
+}
+
+/* APARTADO GENERO TERROR */
+
+.genero-terror{
+    background-color: rgba(39, 39, 39, 0.582);
+}
+
+.genero-terror .comics-genero{
+    padding-bottom: 10rem;
+}
+
+.genero-terror h3#terror{
+    color: rgb(2, 2, 2);
+    text-decoration: underline;
+    letter-spacing: 0.3rem;
+    font-family: "Economica", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    padding-top: 1rem;
+    font-size: 3rem;
+}
+
+/* APARTADO GENERO PARANORMAL */
+
+.genero-paranormal{
+    background-color: rgb(66, 66, 247);
+}
+
+.genero-paranormal .comics-genero{
+    padding-bottom: 10rem;
+}
+
+.genero-paranormal h3#paranormal{
+    color: rgb(2, 2, 2);
+    text-decoration: underline;
+    letter-spacing: 0.3rem;
+    font-family: "Economica", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    padding-top: 1rem;
+    font-size: 3rem;
+}
+
+
+/* COMICS-GENERO */
+
+
+/*---------------------------------------------*/
+
+/* Clase para el género activo */
+
+/*---------------------------------------------*/
 
 footer {
     background-color: white;
@@ -168,58 +322,6 @@ footer img {
 
 .carousel-transition {
     transition: transform 0.6s ease-in-out;
-}
-
-/* COMCIS POR DIA */
-
-.grid-container {
-    justify-content: center;
-    padding: 1rem;
-    display: grid;
-    grid-template-columns: repeat(5, 0fr);
-    grid-gap: 0.5rem;
-}
-
-.large-card {
-    grid-column: span 2;
-}
-
-.large-card .card img {
-    width: 100%;
-    /* La imagen ocupará todo el ancho del contenedor */
-    height: 214px;
-    /* Establece una altura fija para las imágenes */
-    object-fit: cover;
-    /* Mantiene la relación de aspecto y recorta la imagen si es necesario */
-}
-
-/* COMICS POR DIAS */
-
-.container-dias {
-    display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    gap: 1.5rem;
-    padding: 5rem;
-    max-width: 1100px;
-    margin: auto;
-}
-
-.comics-dias {
-    background-color: #fff;
-    border-radius: 8px;
-    overflow: hidden;
-}
-
-.container-genero {
-    text-align: center;
-    border-top: 1px solid rgb(182, 182, 182);
-    padding: 1rem;
-}
-
-.container-genero .titulo-genero a {
-    font-size: 2rem;
-    color: black;
-    text-decoration: none;
 }
 
 /* GÉNEROS - INICIO */
