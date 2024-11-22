@@ -7,6 +7,7 @@ Desarrollo de una aplicación académica para la materia Desarrollo de sistemas 
 * Bleile Franco
 * Daglio Santiago
 * Zamojski Paula
+* Jorge Gonzalez
 
 ## Tecnologías utilizadas
 * Javascript
