@@ -6,7 +6,6 @@ Desarrollo de una aplicación académica para la materia Desarrollo de sistemas 
 ## Integrantes
 * Bleile Franco
 * Daglio Santiago
-* Gonzalez Jorge
 * Zamojski Paula
 
 ## Tecnologías utilizadas
