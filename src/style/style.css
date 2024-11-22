@@ -2,6 +2,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Creepster&family=Dancing+Script:wght@400..700&family=Nosifer&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Creepster&family=Dancing+Script:wght@400..700&family=Economica:ital,wght@0,400;0,700;1,400;1,700&family=Nosifer&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=STIX+Two+Text:ital,wght@0,400..700;1,400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Clicker+Script&family=Markazi+Text:wght@400..700&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap');
+
 
 /* Estilos básicos */
 body {
@@ -119,6 +121,39 @@ body {
     color: white;
 }
 
+#dias{
+   text-align: center;
+   padding-top: 2rem;
+}
+
+/* BOTON DIAS INICIO*/
+
+#dias .boton-dias {
+    color: #000000;
+    border: 2px solid rgb(87, 136, 226);
+    border-radius: 0px;
+    padding: 18px 36px;
+    display: inline-block;
+    font-family: "Lucida Console", Monaco, monospace;
+    font-size: 1rem;
+    letter-spacing: 1px;
+    cursor: pointer;
+    box-shadow: inset 0 0 0 0 #2185f8;
+    -webkit-transition: ease-out 1s;
+    -moz-transition: ease-out 1s;
+    transition: ease-out 1s;
+  }
+  
+  #dias .boton-dias:hover {
+    box-shadow: inset 0 0 0 50px #3a5a96;
+  }
+  
+  #outer {
+    width: 364px;
+    margin: 50px auto 0 auto;
+    text-align: center;
+  }
+
 /* COMICS SEGÚN EL DIA */
 
 .comics-dias{
@@ -151,6 +186,15 @@ body {
     font-size: 3rem;
 }
 
+.genero-fantasia h3, p{
+    font-size: 1.3rem; 
+    text-align: center;
+}
+
+.genero-fantasia .card a{
+    text-decoration: none;
+}
+
 /* APARTADO GENERO COMEDIA */
 
 .genero-comedia{
@@ -177,14 +221,30 @@ body {
     font-size: 3rem;
 }
 
+.genero-comedia h3, p{
+    font-size: 1.3rem; 
+    text-align: center;
+}
+
+.genero-comedia .card a{
+    text-decoration: none;
+    color: red;
+}
+
 /* APARTADO GENERO ACCIÓN */
 
 .genero-accion{
     background-color: rgba(233, 181, 84, 0.486);
+    height: 100vh; /* Ocupa al menos toda la pantalla */
+    display: flex; /* Centra el contenido si quieres */
+    flex-direction: column;
+    align-items: center; /* Centrado horizontal */
+    box-sizing: border-box;
 }
 
 .genero-accion .comics-genero{
-    padding-bottom: 10rem;
+    padding-top: 10rem;
+    padding: 10rem;
 }
 
 .genero-accion h3#accion{
@@ -194,18 +254,33 @@ body {
     font-family: "Economica", sans-serif;
     font-weight: 400;
     font-style: normal;
-    padding-top: 1rem;
     font-size: 3rem;
+}
+
+.genero-accion h3, p{
+    font-size: 1.3rem; 
+    text-align: center;
+}
+
+.genero-accion .card a{
+    text-decoration: none;
+    color: rgb(83, 83, 5);
 }
 
 /* APARTADO GENERO ROMANCE */
 
 .genero-romance{
     background-color: rgba(255, 192, 203, 0.651);
+    height: 100vh;
+    display: flex; /* Centra el contenido si quieres */
+    flex-direction: column;
+    align-items: center; /* Centrado horizontal */
+    box-sizing: border-box;
 }
 
 .genero-romance .comics-genero{
-    padding-bottom: 10rem;
+    padding-top: 10rem;
+    padding: 10rem;
 }
 
 .genero-romance h3#romance{
@@ -215,18 +290,33 @@ body {
     font-family: "Economica", sans-serif;
     font-weight: 400;
     font-style: normal;
-    padding-top: 1rem;
     font-size: 3rem;
+}
+
+.genero-romance h3, p{
+    font-size: 1.3rem; 
+    text-align: center;
+}
+
+.genero-romance .card a{
+    text-decoration: none;
+    color: rgb(182, 26, 174);
 }
 
 /* APARTADO GENERO TERROR */
 
 .genero-terror{
     background-color: rgba(39, 39, 39, 0.582);
+    height: 100vh;
+    display: flex; /* Centra el contenido si quieres */
+    flex-direction: column;
+    align-items: center; /* Centrado horizontal */
+    box-sizing: border-box;
 }
 
 .genero-terror .comics-genero{
-    padding-bottom: 10rem;
+    padding-top: 10rem;
+    padding: 10rem;
 }
 
 .genero-terror h3#terror{
@@ -236,18 +326,33 @@ body {
     font-family: "Economica", sans-serif;
     font-weight: 400;
     font-style: normal;
-    padding-top: 1rem;
     font-size: 3rem;
+}
+
+.genero-terror h3, p{
+    font-size: 1.3rem; 
+    text-align: center;
+}
+
+.genero-terror .card a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
 }
 
 /* APARTADO GENERO PARANORMAL */
 
 .genero-paranormal{
     background-color: rgb(66, 66, 247);
+    height: 100vh;
+    display: flex; /* Centra el contenido si quieres */
+    flex-direction: column;
+    align-items: center; /* Centrado horizontal */
+    box-sizing: border-box;
 }
 
 .genero-paranormal .comics-genero{
-    padding-bottom: 10rem;
+    padding-top: 10rem;
+    padding: 10rem;
 }
 
 .genero-paranormal h3#paranormal{
@@ -257,13 +362,18 @@ body {
     font-family: "Economica", sans-serif;
     font-weight: 400;
     font-style: normal;
-    padding-top: 1rem;
     font-size: 3rem;
 }
 
+.genero-paranormal h3, p{
+    font-size: 1.3rem; 
+    text-align: center;
+}
 
-/* COMICS-GENERO */
-
+.genero-paranormal .card a{
+    text-decoration: none;
+    color: rgb(119, 25, 173);
+}
 
 /*---------------------------------------------*/
 
@@ -332,28 +442,6 @@ footer img {
 
 .carousel-transition {
     transition: transform 0.6s ease-in-out;
-}
-
-/* GÉNEROS - INICIO */
-
-.comics-genero-inicio {
-    display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    gap: 1.5rem;
-    padding: 5rem;
-    max-width: 1100px;
-    margin: auto;
-}
-
-.comic-info-genero-inicio {
-    display: flex;
-    flex-direction: column;
-    background-color: #f36c6c;
-    border-radius: 8px;
-}
-
-.comic-info-genero-inicio h3 {
-    padding-bottom: 80px;
 }
 
 /* AGREGAR TEXTO ENCIMA DE LAS CARDS ROMANCE*/
@@ -517,4 +605,137 @@ footer img {
     color: #fff;
     /* Color del texto */
     text-decoration: none;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Clicker+Script&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Markazi+Text:wght@400..700&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Clicker+Script&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Markazi+Text:wght@400..700&family=Roboto+Flex:opsz,wght@8..144,100..1000&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap');
+
+.emperatriz-container {
+    width: 100%;
+    background-color: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.emperatriz-header {
+    background-color: rgb(59, 134, 184); /* Rojo oscuro */
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    font-size: 1.8em;
+    font-weight: bold;
+}
+
+.emperatriz-content {
+    display: flex;
+    padding: 20px;
+    gap: 20px;
+}
+
+.emperatriz-main-section {
+    flex: 3;
+    background-color: #fff;
+    padding: 15px;
+}
+
+.emperatriz-main-section h2 {
+    border-top: 1px solid grey;
+    padding-top: 1rem;
+    font-family: "Economica", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 2rem;
+}
+
+.emperatriz-sidebar {
+    flex: 1;
+    background-color: #b3b4b488;
+    border-left: 5px solid #ddd;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.emperatriz-image-container {
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.emperatriz-sidebar img {
+    width: 100%;
+    border-radius: 5px;
+    object-fit: cover;
+}
+
+.emperatriz-info {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    font-size: 0.9em;
+}
+
+.emperatriz-info li {
+    margin-bottom: 10px;
+}
+
+.emperatriz-info strong {
+    color: #900;
+}
+
+h3 {
+    margin-top: 20px;
+    font-size: 1.2em;
+    color: #333;
+}
+
+.emperatriz-main-section .parrafos-paginas-unitarias{
+    font-family: "Economica", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    font-size: 1.5rem;
+}
+
+.emperatriz-content a{
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.comics-dias .card {
+    max-width: 20rem; /* Ajusta el ancho máximo de las cards */
+    height: 20rem;
+    margin: auto;     /* Centra las cards dentro de las columnas */
+    overflow: hidden; /* Mantén los bordes limpios */
+}
+
+.comics-dias .card-img {
+    height: 100%; /* Ajusta la altura de las imágenes */
+    object-fit: cover; /* Recorta las imágenes manteniendo la proporción */
+}
+
+.comics-dias .card-title {
+    font-size: 1rem; /* Títulos más pequeños */
+    font-weight: bold;
+}
+
+.comics-dias .card-text {
+    font-size: 0.9rem; /* Texto más pequeño */
+}
+
+.overlay-romance {
+    background-color: rgba(255, 182, 193, 0.8); /* Color específico para romance */
 }

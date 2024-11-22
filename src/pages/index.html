@@ -19,7 +19,9 @@
             <a href="comics.html">GÉNEROS</a>
         </div>
         <div>
-            <a class="a-iniciosesion" href="./auth/login.html" style="background-color: #333; color: #fff; border: none; padding: 0.5rem 1rem; border-radius: 5px;">Iniciar sesión</a>
+            <a class="a-iniciosesion" href="./auth/login.html"
+                style="background-color: #333; color: #fff; border: none; padding: 0.5rem 1rem; border-radius: 5px;">Iniciar
+                sesión</a>
         </div>
     </nav>
 
@@ -47,88 +49,84 @@
         </button>
     </div>
 
-    <nav class="genre-nav" style="font-size: 1.3rem;">
-        <a href="#" class="active">LUN</a>
-        <a href="#">MAR</a>
-        <a href="#">MIE</a>
-        <a href="#">JUE</a>
-        <a href="#">VIE</a>
-        <a href="#">SAB</a>
-        <a href="#">DOM</a>
-    </nav>
+    <div id="dias">
+        <button class="boton-dias" onclick="mostrarHistorias('LUN')">LUN</button>
+        <button class="boton-dias" onclick="mostrarHistorias('MAR')">MAR</button>
+        <button class="boton-dias" onclick="mostrarHistorias('MIE')">MIE</button>
+        <button class="boton-dias" onclick="mostrarHistorias('JUE')">JUE</button>
+        <button class="boton-dias" onclick="mostrarHistorias('VIE')">VIE</button>
+        <button class="boton-dias" onclick="mostrarHistorias('SAB')">SAB</button>
+        <button class="boton-dias" onclick="mostrarHistorias('DOM')">DOM</button>
+        <!-- Agrega más botones para los días -->
+    </div>
 
-    <div class="comics-dias row row-cols-1 row-cols-md-5 g-7">
-        <div class="card">
-            <img src="../img/15Thumb_PC.jpg" class="card-img" alt="...">
-            <div class="card-img-overlay c-black">
-                <h5 class="card-title">Operacion: Amor Puro</h5>
-                <p class="card-text">Romance.</p>
-            </div>
-            <a href="../historias/ep0_Operacion_Amor_Puro.pdf">
-                <div class="overlay">
-                    <p class="overlay-text">OPERACION: AMOR PURO.</p>
-                    <p class="overlay-text">Es difícil salir con alguien que no te da la hora del día. Su-ae Shim lo
-                        sabe mejor que nadie por haber salido durante años con su indiferente novio, Minu Kang.</p>
+    <div class="comics-dias row justify-content-center g-4">
+        <!-- Card 1 -->
+        <div class="col-md-4">
+            <div class="card">
+                <img src="../img/15Thumb_PC.jpg" class="card-img" alt="...">
+                <div class="card-img-overlay c-black">
+                    <h5 class="card-title">Operacion: Amor Puro</h5>
+                    <p class="card-text">Romance.</p>
                 </div>
-            </a>
+                <a href="../historias/ep0_Operacion_Amor_Puro.pdf">
+                    <div class="overlay-romance">
+                        <p class="overlay-text">OPERACION: AMOR PURO.</p>
+                        <p class="overlay-text">Es difícil salir con alguien que no te da la hora del día...</p>
+                    </div>
+                </a>
+            </div>
         </div>
-        <div class="card">
-            <img src="../img/2Thumbnail_Desktop.jpg" class="card-img" alt="...">
-            <div class="card-img-overlay c-black">
-                <h5 class="card-title">Mi liberación en tu fuego</h5>
-                <p class="card-text">Romance.</p>
-            </div>
-            <a href="../historias/ep0_Operacion_Amor_Puro.pdf">
-                <div class="overlay">
-                    <p class="overlay-text">MI LIBERACIÓN EN TU FUEGO.</p>
-                    <p class="overlay-text">Diez años atrás, una niña le salvó la vida a un dragón. No imaginaban que
-                        las vueltas del destino los unirían nuevamente cuando la propiedad familiar de Lucina resulta
-                        invadida por la temible nación Tayar, liderada por el rey Hakan.</p>
+    
+        <!-- Card 2 -->
+        <div class="col-md-4">
+            <div class="card">
+                <img src="../img/2Thumbnail_Desktop.jpg" class="card-img" alt="...">
+                <div class="card-img-overlay c-black">
+                    <h5 class="card-title">Mi liberación en tu fuego</h5>
+                    <p class="card-text">Romance.</p>
                 </div>
-            </a>
+                <a href="../historias/ep0_Operacion_Amor_Puro.pdf">
+                    <div class="overlay-romance">
+                        <p class="overlay-text">MI LIBERACIÓN EN TU FUEGO.</p>
+                        <p class="overlay-text">Diez años atrás, una niña le salvó la vida a un dragón...</p>
+                    </div>
+                </a>
+            </div>
         </div>
-        <div class="card">
-            <img src="../img/6Thumb_PC (1).jpg" class="card-img" alt="...">
-            <div class="card-img-overlay c-black">
-                <h5 class="card-title">Mi lujuriosa deidad</h5>
-                <p class="card-text">Romance.</p>
-            </div>
-            <a href="../historias/ep0_Operacion_Amor_Puro.pdf">
-                <div class="overlay">
-                    <p class="overlay-text">MI LUJURIOSA DEIDAD</p>
-                    <p class="overlay-text">Haetsal Jeon parece ser un angel, una chica sin deseos o avaricia, solo
-                        queriendo vivir una vida tranquila complaciendo a los demás. Tras una dramática separación,
-                        Haetsal decide salir con sus amigas a bailar para olvidarlo todo.</p>
+    
+        <!-- Card 3 -->
+        <div class="col-md-4">
+            <div class="card">
+                <img src="../img/6Thumb_PC (1).jpg" class="card-img" alt="...">
+                <div class="card-img-overlay c-black">
+                    <h5 class="card-title">Mi lujuriosa deidad</h5>
+                    <p class="card-text">Romance.</p>
                 </div>
-            </a>
+                <a href="../historias/ep0_Operacion_Amor_Puro.pdf">
+                    <div class="overlay-romance">
+                        <p class="overlay-text">MI LUJURIOSA DEIDAD.</p>
+                        <p class="overlay-text">Haetsal Jeon parece ser un ángel, una chica sin deseos...</p>
+                    </div>
+                </a>
+            </div>
         </div>
-        <div class="card">
-            <img src="../img/5image_2022-10-19_162556240.png" class="card-img" alt="...">
-            <div class="card-img-overlay c-black">
-                <h5 class="card-title">Castillos en el mar</h5>
-                <p class="card-text">Fantasía.</p>
-            </div>
-            <a href="../historias/ep0_Operacion_Amor_Puro.pdf">
-                <div class="overlay-fantasia">
-                    <p class="overlay-text">CASTILLOS EN EL MAR</p>
-                    <p class="overlay-text">¿Y si toda tu vida se rigiera por una profecía? ¿Y si tu futuro fuera la
-                        predicción de personas que nunca conociste y que murieron mucho antes de que nacieras?</p>
+        <div class="col-md-4">
+            <div class="card">
+                <img src="../img/5image_2022-10-19_162556240.png" class="card-img" alt="...">
+                <div class="card-img-overlay c-black">
+                    <h5 class="card-title">Castillos en el mar</h5>
+                    <p class="card-text">Fantasía.</p>
                 </div>
-            </a>
-        </div>
-        <div class="card">
-            <img src="../img/2.jpg" class="card-img" alt="...">
-            <div class="card-img-overlay c-black">
-                <h5 class="card-title">Yo soy la muerte</h5>
-                <p class="card-text">Paranormal.</p>
+                <a href="../historias/ep0_Operacion_Amor_Puro.pdf">
+                    <div class="overlay-fantasia">
+                        <p class="overlay-text">CASTILLOS EN EL MAR</p>
+                        <p class="overlay-text">¿Y si toda tu vida se rigiera por una profecía? ¿Y si tu futuro fuera la
+                            predicción de personas que nunca conociste y que murieron mucho antes de que nacieras?
+                        </p>
+                    </div>
+                </a>
             </div>
-            <a href="../historias/ep0_Operacion_Amor_Puro.pdf">
-                <div class="overlay-paranormal">
-                    <p class="overlay-text">YO SOY LA MUERTE</p>
-                    <p class="overlay-text">¿Y si toda tu vida se rigiera por una profecía? ¿Y si tu futuro fuera la
-                        predicción de personas que nunca conociste y que murieron mucho antes de que nacieras?</p>
-                </div>
-            </a>
         </div>
     </div>
 
@@ -140,7 +138,7 @@
             <div class="card h-100 position-relative">
                 <img src="../img/halloween-ends-tra-iler-1664193816.jpeg" class="card-img-top" alt="...">
                 <div class="overlay-generos">
-                    <p class="overlay-text-generos"><a href="#">TERROR</a></p>
+                    <p class="overlay-text-generos"><a href="./comics.html">TERROR</a></p>
                 </div>
             </div>
         </div>
@@ -148,7 +146,7 @@
             <div class="card h-100 position-relative">
                 <img src="../img/image-37.png" class="card-img-top" alt="...">
                 <div class="overlay-generos">
-                    <p class="overlay-text-generos"><a href="#">ROMANCE</a></p>
+                    <p class="overlay-text-generos"><a href="./comics.html">ROMANCE</a></p>
                 </div>
             </div>
         </div>
@@ -156,7 +154,7 @@
             <div class="card h-100 position-relative">
                 <img src="../img/anime-mas-vistos.jpg" class="card-img-top" alt="...">
                 <div class="overlay-generos">
-                    <p class="overlay-text-generos"><a href="#">FANTASÍA</a></p>
+                    <p class="overlay-text-generos"><a href="./comics.html">FANTASÍA</a></p>
                 </div>
             </div>
         </div>
@@ -164,7 +162,7 @@
             <div class="card h-100 position-relative">
                 <img src="../img/anime-de-Mieruko-chan-destacada-El-Palomitron.jpg" class="card-img-top" alt="...">
                 <div class="overlay-generos">
-                    <p class="overlay-text-generos"><a href="#">PARANORMAL</a></p>
+                    <p class="overlay-text-generos"><a href="./comics.html">PARANORMAL</a></p>
                 </div>
             </div>
         </div>
@@ -172,7 +170,7 @@
             <div class="card h-100 position-relative">
                 <img src="../img/4-cowboy-bebop-animes-accion-cke.jpg" class="card-img-top" alt="...">
                 <div class="overlay-generos">
-                    <p class="overlay-text-generos"><a href="#">ACCIÓN</a></p>
+                    <p class="overlay-text-generos"><a href="./comics.html">ACCIÓN</a></p>
                 </div>
             </div>
         </div>
