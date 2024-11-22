@@ -12,21 +12,21 @@ const historias = {
       genero: "Romance",
       imagen: "../img/15Thumb_PC.jpg",
       overlay: "OPERACION: AMOR PURO. Es difícil salir con alguien que no te da la hora del día. Su-ae Shim lo sabe mejor que nadie...",
-      link: "../historias/ep0_Operacion_Amor_Puro.pdf"
+      link: "../pages/operacion.html"
     },
     {
       titulo: "Mi liberación en tu fuego",
       genero: "Romance",
       imagen: "../img/2Thumbnail_Desktop.jpg",
       overlay: "MI LIBERACIÓN EN TU FUEGO. Diez años atrás, una niña le salvó la vida a un dragón. No imaginaban...",
-      link: "../historias/ep0_Operacion_Amor_Puro.pdf"
+      link: "../pages/liberacion.html"
     },
     {
-      titulo: "Castillos en el mar",
-      genero: "Fantasía",
-      imagen: "../img/5image_2022-10-19_162556240.png",
-      overlay: "CASTILLOS EN EL MAR. ¿Y si toda tu vida se rigiera por una profecía? ¿Y si tu futuro fuera...",
-      link: "../historias/ep0_Castillos_en_el_mar.pdf"
+      titulo: "Muerte: Programada",
+      genero: "Paranormal",
+      imagen: "../img/8Muerte_Reprogramada_desktop_thumbnail.jpg",
+      overlay: "En este mundo, todos tienen el derecho, garantizado por ley, de matar a una persona por año. Luego de perder a su mejor amigo, Kreyul conoce desde joven lo brutal que puede ser esa práctica, y jura ponerle fin...",
+      link: "../pages/muerteprogramada.html"
     },
   ],
   MAR: [
@@ -35,21 +35,21 @@ const historias = {
       genero: "Fantasia",
       imagen: "../img/2Yo_soy_la_reina_en_esta_vida_thumbnail_desktop (1).jpg",
       overlay: "LA REINA EN ESTA VIDA. El reino Etruscan se tiñe de sangre cuando Cesare, el hijo ilegítimo del rey, conspira con su prometida Ariadne para usurpar el trono de su medio hermano, Alfonso.",
-      link: "../historias/ep0_Operacion_Amor_Puro.pdf"
+      link: "../pages/reina.html"
     },
     {
       titulo: "Jugo de Jungla",
       genero: "Acción",
       imagen: "../img/63JungleJuice_desktop_thumbnail.jpg",
       overlay: "JUGO DE JUNGLA. El reino Etruscan se tiñe de sangre cuando Cesare, el hijo ilegítimo del rey, conspira con su prometida Ariadne para usurpar el trono de su medio hermano, Alfonso.",
-      link: "../historias/ep0_Operacion_Amor_Puro.pdf"
+      link: "../pages/jugodejungla.html"
     },
     {
-      titulo: "Contrato a Mordiscos",
-      genero: "Romance",
-      imagen: "../img/3Contrato+a+mordiscos_thumbnail_desktop.jpg",
-      overlay: "CONTRATO A MORDISCOS. ¿Quién necesita medicamentos cuando una mordida de vampiro puede mejorarnos al instante? Chae-i sufre de dolor de cabeza crónico lo que le ha provocado una terrible reputación como actriz. Al sentir mejoría, después de haber sido mordida por el famoso Ijun —quien resulta ser un vampiro— ella le pide que la siga mordiendo, a cambio, Ijun le propone una relación por contrato. ¿Qué lo motiva? ¿Chae-i encontrará mejoría?",
-      link: "../historias/ep0_Operacion_Amor_Puro.pdf"
+      titulo: "Dulce Hogar",
+      genero: "Terror",
+      imagen: "../img/3.jpg",
+      overlay: "DULCE HOGAR. Después de una tragedia familiar inesperada, un solitario estudiante de preparatoria se ve obligado a abandonar su hogar, solo para encontrarse con algo mucho más aterrador: una realidad donde los monstruos quieren exterminar a la humanidad.",
+      link: "../pages/dulcehogar.html"
     },
     // Agrega más historias para martes
   ],
@@ -59,7 +59,7 @@ const historias = {
       genero: "Paranormal",
       imagen: "../img/2.jpg",
       overlay: "YO SOY LA MUERTE. ¿Y si toda tu vida se rigiera por una profecía? ¿Y si tu futuro fuera...",
-      link: "../historias/ep0_Yo_soy_la_muerte.pdf"
+      link: "../pages/yosoylamuerte.html"
     },
     {
       titulo: "La niñera de la mafia",
@@ -73,7 +73,7 @@ const historias = {
       genero: "Acción",
       imagen: "../img/62.jpg",
       overlay: "ELECEED. Jiwoo es un joven amable que utiliza sus reflejos increíblemente rápidos, como los de un gato, para hacer del mundo un mejor lugar salvando niños o mascotas. Kayden es un agente secreto prófugo que termina encerrado en el cuerpo de un... mmm... gato gordo, peludo y viejo. Juntos y con la ayuda de los superpoderes de Jiwoo y la inteligencia de Kayden lucharán contra las fuerzas que desean que el mal tome control del mundo. Aunque solo lo lograrán si consiguen soportarse lo suficiente para hacerlo.",
-      link: "../historias/ep0_Operacion_Amor_Puro.pdf"
+      link: "../pages/eleceed.html"
     },
     // Agrega más historias para martes
   ],
@@ -97,7 +97,7 @@ const historias = {
       genero: "Terror",
       imagen: "../img/6TrastornoLaunch_desktop_thumbnail.jpg",
       overlay: "TRASTORNO. Rayne despierta en la azotea de un edificio sin ningún recuerdo del apocalipsis. Samael es... un delincuente que se encuentra con Rayne por casualidad. De este encuentro azaroso nace una alianza: Rayne y Samael deben trabajar juntos si quieren sobrevivir en un nuevo mundo plagado de monstruos caníbales.",
-      link: "../historias/ep0_Operacion_Amor_Puro.pdf"
+      link: "../pages/trastorno.html"
     },
     // Agrega más historias para martes
   ],
@@ -107,14 +107,14 @@ const historias = {
       genero: "Romance",
       imagen: "../img/10_EC8DB8EB84A4EC9DBC_ipad.jpg",
       overlay: "DETRAS DE TU SONRISA.Kiyu ha vivido toda su vida adorado por los demás por su belleza. Pero después de renunciar al show de talentos en el que participaba, Kiyu sueña con llevar una vida de estudiante común en la preparatoria. Sin embargo, las cosas no son tan fáciles. Se pone anteojos para pasar inadvertido entre sus compañeros, pero se da cuenta de que hacer amigos es mucho más difícil sin una cara bonita.",
-      link: "../historias/ep0_Yo_soy_la_muerte.pdf"
+      link: "../pages/dtsonrisa.html"
     },
     {
       titulo: "La emperatriz divorciada",
       genero: "Fantasía",
       imagen: "../img/01Thumb_PC.jpg",
       overlay: "LA EMPERATRIZ DIVORCIADA. Navier Ellie Trovi era la emperatriz perfecta en todos los sentidos: inteligente, valiente y sociable. Era amable con sus súbditos y devota de su marido. Se conformaba con vivir el resto de sus días como la sabia emperatriz del Imperio de Oriente… Pero un día, su esposo trajo a una amante y le exigió el divorcio. “Acepto este divorcio… y solicito autorización para volver a casarme”. En un giro inesperado, Navier se vuelve a casar con otro emperador y conserva su título y su sueño de ser emperatriz. Pero ¿cómo se desarrollaron los hechos?.",
-      link: "../historias/ep0_Operacion_Amor_Puro.pdf"
+      link: "../pages/emperatriz.html"
     },
     {
       titulo: "Contrato a Mordiscos",
