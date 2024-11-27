@@ -11,5 +11,6 @@ namespace RegisterLoginApp.Data
         }
 
         public DbSet<UserModel> Users { get; set; }
+        public DbSet<ComicModel> Comics { get; set; }
     }
 }

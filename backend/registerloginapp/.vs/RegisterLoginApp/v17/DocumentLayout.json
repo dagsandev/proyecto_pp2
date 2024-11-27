@@ -3,12 +3,64 @@
   "WorkspaceRootPath": "C:\\Users\\admin\\Desktop\\sd\\personal-projects\\pp2\\backend\\proyecto_pp2\\backend\\registerloginapp\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{D6138D2C-F500-4F4E-B259-A5151612F4A3}|RegisterLoginApp.csproj|c:\\users\\admin\\desktop\\sd\\personal-projects\\pp2\\backend\\proyecto_pp2\\backend\\registerloginapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D6138D2C-F500-4F4E-B259-A5151612F4A3}|RegisterLoginApp.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D6138D2C-F500-4F4E-B259-A5151612F4A3}|RegisterLoginApp.csproj|c:\\users\\admin\\desktop\\sd\\personal-projects\\pp2\\backend\\proyecto_pp2\\backend\\registerloginapp\\controllers\\comiccontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D6138D2C-F500-4F4E-B259-A5151612F4A3}|RegisterLoginApp.csproj|solutionrelative:controllers\\comiccontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D6138D2C-F500-4F4E-B259-A5151612F4A3}|RegisterLoginApp.csproj|c:\\users\\admin\\desktop\\sd\\personal-projects\\pp2\\backend\\proyecto_pp2\\backend\\registerloginapp\\models\\dto\\comicuploaddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D6138D2C-F500-4F4E-B259-A5151612F4A3}|RegisterLoginApp.csproj|solutionrelative:models\\dto\\comicuploaddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D6138D2C-F500-4F4E-B259-A5151612F4A3}|RegisterLoginApp.csproj|c:\\users\\admin\\desktop\\sd\\personal-projects\\pp2\\backend\\proyecto_pp2\\backend\\registerloginapp\\models\\comicmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D6138D2C-F500-4F4E-B259-A5151612F4A3}|RegisterLoginApp.csproj|solutionrelative:models\\comicmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D6138D2C-F500-4F4E-B259-A5151612F4A3}|RegisterLoginApp.csproj|c:\\users\\admin\\desktop\\sd\\personal-projects\\pp2\\backend\\proyecto_pp2\\backend\\registerloginapp\\services\\comicservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D6138D2C-F500-4F4E-B259-A5151612F4A3}|RegisterLoginApp.csproj|solutionrelative:services\\comicservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D6138D2C-F500-4F4E-B259-A5151612F4A3}|RegisterLoginApp.csproj|c:\\users\\admin\\desktop\\sd\\personal-projects\\pp2\\backend\\proyecto_pp2\\backend\\registerloginapp\\repository\\comicrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D6138D2C-F500-4F4E-B259-A5151612F4A3}|RegisterLoginApp.csproj|solutionrelative:repository\\comicrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D6138D2C-F500-4F4E-B259-A5151612F4A3}|RegisterLoginApp.csproj|c:\\users\\admin\\desktop\\sd\\personal-projects\\pp2\\backend\\proyecto_pp2\\backend\\registerloginapp\\repository\\icomicrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D6138D2C-F500-4F4E-B259-A5151612F4A3}|RegisterLoginApp.csproj|solutionrelative:repository\\icomicrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D6138D2C-F500-4F4E-B259-A5151612F4A3}|RegisterLoginApp.csproj|c:\\users\\admin\\desktop\\sd\\personal-projects\\pp2\\backend\\proyecto_pp2\\backend\\registerloginapp\\repository\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D6138D2C-F500-4F4E-B259-A5151612F4A3}|RegisterLoginApp.csproj|solutionrelative:repository\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D6138D2C-F500-4F4E-B259-A5151612F4A3}|RegisterLoginApp.csproj|c:\\users\\admin\\desktop\\sd\\personal-projects\\pp2\\backend\\proyecto_pp2\\backend\\registerloginapp\\models\\dto\\comicresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D6138D2C-F500-4F4E-B259-A5151612F4A3}|RegisterLoginApp.csproj|solutionrelative:models\\dto\\comicresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D6138D2C-F500-4F4E-B259-A5151612F4A3}|RegisterLoginApp.csproj|c:\\users\\admin\\desktop\\sd\\personal-projects\\pp2\\backend\\proyecto_pp2\\backend\\registerloginapp\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D6138D2C-F500-4F4E-B259-A5151612F4A3}|RegisterLoginApp.csproj|solutionrelative:services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D6138D2C-F500-4F4E-B259-A5151612F4A3}|RegisterLoginApp.csproj|c:\\users\\admin\\desktop\\sd\\personal-projects\\pp2\\backend\\proyecto_pp2\\backend\\registerloginapp\\models\\dto\\registerrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D6138D2C-F500-4F4E-B259-A5151612F4A3}|RegisterLoginApp.csproj|solutionrelative:models\\dto\\registerrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D6138D2C-F500-4F4E-B259-A5151612F4A3}|RegisterLoginApp.csproj|c:\\users\\admin\\desktop\\sd\\personal-projects\\pp2\\backend\\proyecto_pp2\\backend\\registerloginapp\\services\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D6138D2C-F500-4F4E-B259-A5151612F4A3}|RegisterLoginApp.csproj|solutionrelative:services\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{D6138D2C-F500-4F4E-B259-A5151612F4A3}|RegisterLoginApp.csproj|c:\\users\\admin\\desktop\\sd\\personal-projects\\pp2\\backend\\proyecto_pp2\\backend\\registerloginapp\\models\\usermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D6138D2C-F500-4F4E-B259-A5151612F4A3}|RegisterLoginApp.csproj|solutionrelative:models\\usermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D6138D2C-F500-4F4E-B259-A5151612F4A3}|RegisterLoginApp.csproj|c:\\users\\admin\\desktop\\sd\\personal-projects\\pp2\\backend\\proyecto_pp2\\backend\\registerloginapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D6138D2C-F500-4F4E-B259-A5151612F4A3}|RegisterLoginApp.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D6138D2C-F500-4F4E-B259-A5151612F4A3}|RegisterLoginApp.csproj|c:\\users\\admin\\desktop\\sd\\personal-projects\\pp2\\backend\\proyecto_pp2\\backend\\registerloginapp\\models\\dto\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D6138D2C-F500-4F4E-B259-A5151612F4A3}|RegisterLoginApp.csproj|solutionrelative:models\\dto\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D6138D2C-F500-4F4E-B259-A5151612F4A3}|RegisterLoginApp.csproj|c:\\users\\admin\\desktop\\sd\\personal-projects\\pp2\\backend\\proyecto_pp2\\backend\\registerloginapp\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D6138D2C-F500-4F4E-B259-A5151612F4A3}|RegisterLoginApp.csproj|solutionrelative:controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,32 +70,202 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 14,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 8,
+              "Title": "ComicResponseDto.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\sd\\personal-projects\\pp2\\backend\\proyecto_pp2\\backend\\registerloginapp\\Models\\Dto\\ComicResponseDto.cs",
+              "RelativeDocumentMoniker": "Models\\Dto\\ComicResponseDto.cs",
+              "ToolTip": "C:\\Users\\admin\\Desktop\\sd\\personal-projects\\pp2\\backend\\proyecto_pp2\\backend\\registerloginapp\\Models\\Dto\\ComicResponseDto.cs",
+              "RelativeToolTip": "Models\\Dto\\ComicResponseDto.cs",
+              "ViewState": "AQIAAAIAAAAAAAAAAAAxwAgAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-27T03:46:58.438Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
               "Title": "UserModel.cs",
               "DocumentMoniker": "C:\\Users\\admin\\Desktop\\sd\\personal-projects\\pp2\\backend\\proyecto_pp2\\backend\\registerloginapp\\Models\\UserModel.cs",
               "RelativeDocumentMoniker": "Models\\UserModel.cs",
               "ToolTip": "C:\\Users\\admin\\Desktop\\sd\\personal-projects\\pp2\\backend\\proyecto_pp2\\backend\\registerloginapp\\Models\\UserModel.cs",
               "RelativeToolTip": "Models\\UserModel.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAsAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-21T13:31:53.304Z",
+              "WhenOpened": "2024-11-26T23:19:43.637Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ComicModel.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\sd\\personal-projects\\pp2\\backend\\proyecto_pp2\\backend\\registerloginapp\\Models\\ComicModel.cs",
+              "RelativeDocumentMoniker": "Models\\ComicModel.cs",
+              "ToolTip": "C:\\Users\\admin\\Desktop\\sd\\personal-projects\\pp2\\backend\\proyecto_pp2\\backend\\registerloginapp\\Models\\ComicModel.cs",
+              "RelativeToolTip": "Models\\ComicModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-26T23:19:20.837Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "RegisterRequest.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\sd\\personal-projects\\pp2\\backend\\proyecto_pp2\\backend\\registerloginapp\\Models\\Dto\\RegisterRequest.cs",
+              "RelativeDocumentMoniker": "Models\\Dto\\RegisterRequest.cs",
+              "ToolTip": "C:\\Users\\admin\\Desktop\\sd\\personal-projects\\pp2\\backend\\proyecto_pp2\\backend\\registerloginapp\\Models\\Dto\\RegisterRequest.cs",
+              "RelativeToolTip": "Models\\Dto\\RegisterRequest.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAowA0AAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-26T23:18:21.848Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "IUserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\sd\\personal-projects\\pp2\\backend\\proyecto_pp2\\backend\\registerloginapp\\Repository\\IUserRepository.cs",
+              "RelativeDocumentMoniker": "Repository\\IUserRepository.cs",
+              "ToolTip": "C:\\Users\\admin\\Desktop\\sd\\personal-projects\\pp2\\backend\\proyecto_pp2\\backend\\registerloginapp\\Repository\\IUserRepository.cs",
+              "RelativeToolTip": "Repository\\IUserRepository.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAAwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-26T23:04:11.202Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\sd\\personal-projects\\pp2\\backend\\proyecto_pp2\\backend\\registerloginapp\\Services\\UserService.cs",
+              "RelativeDocumentMoniker": "Services\\UserService.cs",
+              "ToolTip": "C:\\Users\\admin\\Desktop\\sd\\personal-projects\\pp2\\backend\\proyecto_pp2\\backend\\registerloginapp\\Services\\UserService.cs",
+              "RelativeToolTip": "Services\\UserService.cs",
+              "ViewState": "AQIAACUAAAAAAAAAAAA5wCsAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-26T23:03:57.929Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "UserDto.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\sd\\personal-projects\\pp2\\backend\\proyecto_pp2\\backend\\registerloginapp\\Models\\Dto\\UserDto.cs",
+              "RelativeDocumentMoniker": "Models\\Dto\\UserDto.cs",
+              "ToolTip": "C:\\Users\\admin\\Desktop\\sd\\personal-projects\\pp2\\backend\\proyecto_pp2\\backend\\registerloginapp\\Models\\Dto\\UserDto.cs",
+              "RelativeToolTip": "Models\\Dto\\UserDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAkwA0AAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-26T23:03:10.733Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\sd\\personal-projects\\pp2\\backend\\proyecto_pp2\\backend\\registerloginapp\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "Controllers\\UserController.cs",
+              "ToolTip": "C:\\Users\\admin\\Desktop\\sd\\personal-projects\\pp2\\backend\\proyecto_pp2\\backend\\registerloginapp\\Controllers\\UserController.cs",
+              "RelativeToolTip": "Controllers\\UserController.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAACoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-26T22:48:25.152Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ComicService.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\sd\\personal-projects\\pp2\\backend\\proyecto_pp2\\backend\\registerloginapp\\Services\\ComicService.cs",
+              "RelativeDocumentMoniker": "Services\\ComicService.cs",
+              "ToolTip": "C:\\Users\\admin\\Desktop\\sd\\personal-projects\\pp2\\backend\\proyecto_pp2\\backend\\registerloginapp\\Services\\ComicService.cs",
+              "RelativeToolTip": "Services\\ComicService.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAzwBwAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-26T20:32:45.679Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "IUserService.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\sd\\personal-projects\\pp2\\backend\\proyecto_pp2\\backend\\registerloginapp\\Services\\IUserService.cs",
+              "RelativeDocumentMoniker": "Services\\IUserService.cs",
+              "ToolTip": "C:\\Users\\admin\\Desktop\\sd\\personal-projects\\pp2\\backend\\proyecto_pp2\\backend\\registerloginapp\\Services\\IUserService.cs",
+              "RelativeToolTip": "Services\\IUserService.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAxwAgAAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-26T20:32:42.414Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ComicRepository.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\sd\\personal-projects\\pp2\\backend\\proyecto_pp2\\backend\\registerloginapp\\Repository\\ComicRepository.cs",
+              "RelativeDocumentMoniker": "Repository\\ComicRepository.cs",
+              "ToolTip": "C:\\Users\\admin\\Desktop\\sd\\personal-projects\\pp2\\backend\\proyecto_pp2\\backend\\registerloginapp\\Repository\\ComicRepository.cs",
+              "RelativeToolTip": "Repository\\ComicRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABsAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-26T19:56:20.362Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "IComicRepository.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\sd\\personal-projects\\pp2\\backend\\proyecto_pp2\\backend\\registerloginapp\\Repository\\IComicRepository.cs",
+              "RelativeDocumentMoniker": "Repository\\IComicRepository.cs",
+              "ToolTip": "C:\\Users\\admin\\Desktop\\sd\\personal-projects\\pp2\\backend\\proyecto_pp2\\backend\\registerloginapp\\Repository\\IComicRepository.cs",
+              "RelativeToolTip": "Repository\\IComicRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-26T19:55:19.77Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ComicUploadDto.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\sd\\personal-projects\\pp2\\backend\\proyecto_pp2\\backend\\registerloginapp\\Models\\Dto\\ComicUploadDto.cs",
+              "RelativeDocumentMoniker": "Models\\Dto\\ComicUploadDto.cs",
+              "ToolTip": "C:\\Users\\admin\\Desktop\\sd\\personal-projects\\pp2\\backend\\proyecto_pp2\\backend\\registerloginapp\\Models\\Dto\\ComicUploadDto.cs",
+              "RelativeToolTip": "Models\\Dto\\ComicUploadDto.cs",
+              "ViewState": "AQIAAAQAAAAAAAAAAAA5wA0AAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-26T19:49:01.287Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "ComicController.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\sd\\personal-projects\\pp2\\backend\\proyecto_pp2\\backend\\registerloginapp\\Controllers\\ComicController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ComicController.cs",
+              "ToolTip": "C:\\Users\\admin\\Desktop\\sd\\personal-projects\\pp2\\backend\\proyecto_pp2\\backend\\registerloginapp\\Controllers\\ComicController.cs",
+              "RelativeToolTip": "Controllers\\ComicController.cs",
+              "ViewState": "AQIAADwAAAAAAAAAAAAYwBsAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-26T19:45:36.53Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\admin\\Desktop\\sd\\personal-projects\\pp2\\backend\\proyecto_pp2\\backend\\registerloginapp\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\Users\\admin\\Desktop\\sd\\personal-projects\\pp2\\backend\\proyecto_pp2\\backend\\registerloginapp\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AQIAAB0AAAAAAAAAAAAIwCMAAAAAAAAA",
+              "ViewState": "AQIAADYAAAAAAAAAAAAAwDwAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-21T06:12:50.529Z"
+              "WhenOpened": "2024-11-21T06:12:50.529Z",
+              "EditorCaption": ""
             }
           ]
         }

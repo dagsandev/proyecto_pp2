@@ -34,6 +34,15 @@ builder.Services.AddScoped<AuthService>();
 //Registro de UserRepository
 builder.Services.AddScoped<IUserRepository, UserRepository>();
 
+//Registro de ComicRepository
+builder.Services.AddScoped<IComicRepository, ComicRepository>();
+
+//Registro de UserService
+builder.Services.AddScoped<IUserService, UserService>();
+
+//Registro de ComicService
+builder.Services.AddScoped<IComicService, ComicService>();
+
 
 var app = builder.Build();
 
@@ -47,6 +56,8 @@ if (app.Environment.IsDevelopment())
 app.UseCors("AllowSpecificOrigin");
 
 app.UseAuthorization();
+
+app.UseStaticFiles();
 
 app.MapControllers();
 

@@ -1,0 +1,25 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\admin\\Desktop\\sd\\personal-projects\\pp2\\backend\\proyecto_pp2\\backend\\registerloginapp\\wwwroot\\comics\\BoletaCENAT_37896634.pdf",
+      "PackagePath": "staticwebassets\\comics\\BoletaCENAT_37896634.pdf"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.RegisterLoginApp.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.RegisterLoginApp.props",
+      "PackagePath": "build\\RegisterLoginApp.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.RegisterLoginApp.props",
+      "PackagePath": "buildMultiTargeting\\RegisterLoginApp.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.RegisterLoginApp.props",
+      "PackagePath": "buildTransitive\\RegisterLoginApp.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

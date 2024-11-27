@@ -1,11 +1,39 @@
 {
   "Version": 1,
-  "Hash": "/n0Xey1Fpbm93LEE57F1TRUCesJyWi6h9kdEqEcFWNQ=",
+  "Hash": "AR6t2hkMJSqLwB8gcSLsMxx8Wq3KLnc76gJM6HlyIFo=",
   "Source": "RegisterLoginApp",
   "BasePath": "_content/RegisterLoginApp",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
-  "DiscoveryPatterns": [],
-  "Assets": []
+  "DiscoveryPatterns": [
+    {
+      "Name": "RegisterLoginApp\\wwwroot",
+      "Source": "RegisterLoginApp",
+      "ContentRoot": "C:\\Users\\admin\\Desktop\\sd\\personal-projects\\pp2\\backend\\proyecto_pp2\\backend\\registerloginapp\\wwwroot\\",
+      "BasePath": "_content/RegisterLoginApp",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\admin\\Desktop\\sd\\personal-projects\\pp2\\backend\\proyecto_pp2\\backend\\registerloginapp\\wwwroot\\comics\\BoletaCENAT_37896634.pdf",
+      "SourceId": "RegisterLoginApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\admin\\Desktop\\sd\\personal-projects\\pp2\\backend\\proyecto_pp2\\backend\\registerloginapp\\wwwroot\\",
+      "BasePath": "_content/RegisterLoginApp",
+      "RelativePath": "comics/BoletaCENAT_37896634.pdf",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\comics\\BoletaCENAT_37896634.pdf"
+    }
+  ]
 }
