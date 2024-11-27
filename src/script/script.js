@@ -51,7 +51,6 @@ const historias = {
       overlay: "DULCE HOGAR. Después de una tragedia familiar inesperada, un solitario estudiante de preparatoria se ve obligado a abandonar su hogar, solo para encontrarse con algo mucho más aterrador: una realidad donde los monstruos quieren exterminar a la humanidad.",
       link: "../pages/dulcehogar.html"
     },
-    // Agrega más historias para martes
   ],
   MIE: [
     {
@@ -75,7 +74,6 @@ const historias = {
       overlay: "ELECEED. Jiwoo es un joven amable que utiliza sus reflejos increíblemente rápidos, como los de un gato, para hacer del mundo un mejor lugar salvando niños o mascotas. Kayden es un agente secreto prófugo que termina encerrado en el cuerpo de un... mmm... gato gordo, peludo y viejo. Juntos y con la ayuda de los superpoderes de Jiwoo y la inteligencia de Kayden lucharán contra las fuerzas que desean que el mal tome control del mundo. Aunque solo lo lograrán si consiguen soportarse lo suficiente para hacerlo.",
       link: "../pages/eleceed.html"
     },
-    // Agrega más historias para martes
   ],
   JUE: [
     {
@@ -99,7 +97,6 @@ const historias = {
       overlay: "TRASTORNO. Rayne despierta en la azotea de un edificio sin ningún recuerdo del apocalipsis. Samael es... un delincuente que se encuentra con Rayne por casualidad. De este encuentro azaroso nace una alianza: Rayne y Samael deben trabajar juntos si quieren sobrevivir en un nuevo mundo plagado de monstruos caníbales.",
       link: "../pages/trastorno.html"
     },
-    // Agrega más historias para martes
   ],
   VIE: [
     {
@@ -123,7 +120,6 @@ const historias = {
       overlay: "CONTRATO A MORDISCOS. ¿Quién necesita medicamentos cuando una mordida de vampiro puede mejorarnos al instante? Chae-i sufre de dolor de cabeza crónico lo que le ha provocado una terrible reputación como actriz. Al sentir mejoría, después de haber sido mordida por el famoso Ijun —quien resulta ser un vampiro— ella le pide que la siga mordiendo, a cambio, Ijun le propone una relación por contrato. ¿Qué lo motiva? ¿Chae-i encontrará mejoría?",
       link: "../historias/ep0_Operacion_Amor_Puro.pdf"
     },
-    // Agrega más historias para martes
   ],
   SAB: [
     {
@@ -147,7 +143,6 @@ const historias = {
       overlay: "YO SOY LA VILLANA. Se supone que el esfuerzo te lleva lejos, pero nunca me imaginé que tan lejos como al mundo dentro de la novela de mi mejor amiga... Lucy se despierta en un mundo totalmente nuevo, donde aún vive la nobleza y tardes de té, pero como la villana que espera la pena de muerte. Para escapar de este destino, debe convertirse en una estafadora de la alta sociedad. ¿Podrá Lucy volver a su mundo?",
       link: "../historias/ep0_Operacion_Amor_Puro.pdf"
     },
-    // Agrega más historias para martes
   ],
   DOM: [
     {
@@ -171,10 +166,7 @@ const historias = {
       overlay: "CONTRATO A MORDISCOS. ¿Quién necesita medicamentos cuando una mordida de vampiro puede mejorarnos al instante? Chae-i sufre de dolor de cabeza crónico lo que le ha provocado una terrible reputación como actriz. Al sentir mejoría, después de haber sido mordida por el famoso Ijun —quien resulta ser un vampiro— ella le pide que la siga mordiendo, a cambio, Ijun le propone una relación por contrato. ¿Qué lo motiva? ¿Chae-i encontrará mejoría?",
       link: "../historias/ep0_Operacion_Amor_Puro.pdf"
     },
-    // Agrega más historias para martes
   ],
-  
-  // Agrega más días
 };
 
 function mostrarHistorias(dia) {
@@ -202,4 +194,34 @@ function mostrarHistorias(dia) {
 
 document.addEventListener("DOMContentLoaded", () => {
   mostrarHistorias("LUN");
+});
+
+
+/* publicación drama en comics.html */
+
+window.addEventListener('DOMContentLoaded', function() {
+  // Obtener los datos del localStorage
+  var pdfDrama = localStorage.getItem("pdfDrama");
+  var tituloDrama = localStorage.getItem("tituloDrama");
+
+  if (pdfDrama && tituloDrama) {
+      // Crear una tarjeta para el comic de Drama
+      var pdfCard = document.createElement("div");
+      pdfCard.classList.add("col");
+      pdfCard.innerHTML = `
+          <div class="card" style="width: 20rem;">
+              <embed src="${pdfDrama}" type="application/pdf" width="100%" height="300px">
+              <a href="#" target="_blank" rel="noopener noreferrer">
+                  <h3 class="card-title">${tituloDrama}</h3>
+              </a>
+              <p class="card-text">Género: Drama</p>
+          </div>
+      `;
+
+      // Añadir la tarjeta al contenedor de Drama
+      var generoDramaContainer = document.getElementById("dramaComics");
+      generoDramaContainer.appendChild(pdfCard);
+  } else {
+      alert("No hay contenido para el género Drama.");
+  }
 });
