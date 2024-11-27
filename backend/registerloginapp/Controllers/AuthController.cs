@@ -22,14 +22,14 @@ namespace RegisterLoginApp.Controllers
         [HttpPost("register")]
         public IActionResult Register([FromBody] RegisterRequest registerRequest)
         {            
-            if (string.IsNullOrEmpty(registerRequest.fullname) || string.IsNullOrEmpty(registerRequest.username) || string.IsNullOrEmpty(registerRequest.password))
+            if (string.IsNullOrEmpty(registerRequest.Fullname) || string.IsNullOrEmpty(registerRequest.Username) || string.IsNullOrEmpty(registerRequest.Password))
             {                
                 return BadRequest(new { message = "Todos los campos son obligatorios." });
             }
 
             try
             {                
-                authService.Register(registerRequest.fullname, registerRequest.username, registerRequest.password);
+                authService.Register(registerRequest.Fullname, registerRequest.Username, registerRequest.Password);
 
                 return Ok(new { message = "Usuario registrado exitosamente." });
             }
@@ -42,14 +42,14 @@ namespace RegisterLoginApp.Controllers
         [HttpPost("login")]
         public IActionResult Login([FromBody] LoginRequest loginRequest)
         {
-            if (string.IsNullOrEmpty(loginRequest.username) || string.IsNullOrEmpty(loginRequest.password))
+            if (string.IsNullOrEmpty(loginRequest.Username) || string.IsNullOrEmpty(loginRequest.Password))
             {                
                 return BadRequest(new { message = "Todos los campos son obligatorios." });
             }
 
             try
             {
-                authService.Login(loginRequest.username, loginRequest.password);
+                authService.Login(loginRequest.Username, loginRequest.Password);
 
                 return Ok(new { message = "Inicio de sesión exitoso." });
             }

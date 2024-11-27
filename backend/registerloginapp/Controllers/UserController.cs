@@ -1,43 +1,54 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using RegisterLoginApp.Models;
+using RegisterLoginApp.Services;
 
 // For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 
 namespace RegisterLoginApp.Controllers
 {
-    [Route("api/v1/[controller]")]
+    [Route("api/user")]
     [ApiController]
     public class UserController : ControllerBase
     {
-        // GET: api/<UserController>
+
+        private readonly IUserService _userService;
+
+        public UserController(IUserService userService)
+        {
+            _userService = userService;
+        }
+       
         [HttpGet]
-        public IEnumerable<string> Get()
+        public IActionResult FindAll()
         {
-            return new string[] { "value1", "value2" };
+            var users = _userService.FindAll();
+
+            if (users == null || users.Count == 0)
+            {
+                return NotFound(new { message = "No hay usuarios disponibles." });
+            }
+
+            return Ok(users);
+
         }
 
-        // GET api/<UserController>/5
         [HttpGet("{id}")]
-        public string Get(int id)
+        public IActionResult GetUserById(int id)
         {
-            return "value";
-        }
 
-        // POST api/<UserController>
-        [HttpPost]
-        public void Post([FromBody] string value)
-        {
-        }
+            if (id <= 0)
+            {
+                return BadRequest(new { message = "El id proporcionado es inválido." });
+            }
 
-        // PUT api/<UserController>/5
-        [HttpPut("{id}")]
-        public void Put(int id, [FromBody] string value)
-        {
-        }
+            var user = _userService.FindById(id);
 
-        // DELETE api/<UserController>/5
-        [HttpDelete("{id}")]
-        public void Delete(int id)
-        {
+            if (user == null)
+            {                
+                return NotFound(new { message = "Usuario no encontrado" });
+            }
+
+            return Ok(user);
         }
     }
 }
