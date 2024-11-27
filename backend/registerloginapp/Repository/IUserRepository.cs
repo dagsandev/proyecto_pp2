@@ -5,8 +5,12 @@ namespace RegisterLoginApp.Repository
     public interface IUserRepository
     {
 
-        bool UserExists(string username);
-        void AddUser(UserModel user);
         UserModel GetUserByUsername(string username);
+        UserModel GetUserById(int id);
+        List<UserModel> FindAll();
+        void AddUser(UserModel user);
+        bool UserExists(string username);
+        
+        
     }
 }

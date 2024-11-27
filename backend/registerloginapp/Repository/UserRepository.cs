@@ -19,10 +19,25 @@ namespace RegisterLoginApp.Repository
             _context.SaveChanges();
         }
 
+        public UserModel GetUserById(int id)
+        {
+            var user = _context.Users
+                .FirstOrDefault(x => x.Id == id);            
+
+            if (user == null)
+            {
+                throw new ArgumentException("Usuario no encontrado");
+            }
+            else
+            {
+                return user;
+            }
+        }
+
         public UserModel GetUserByUsername(string username)
         {
             var user = _context.Users
-                .FirstOrDefault(x => x.username == username);
+                .FirstOrDefault(x => x.Username == username);
 
             if (user == null)
             {
@@ -34,9 +49,14 @@ namespace RegisterLoginApp.Repository
             }
         }
 
+        public List<UserModel> FindAll()
+        {
+            return _context.Users.ToList();
+        }
+
         public bool UserExists(string username)
         {
-            return _context.Users.Any(u => u.username == username);
+            return _context.Users.Any(u => u.Username == username);
         }
     }
 }

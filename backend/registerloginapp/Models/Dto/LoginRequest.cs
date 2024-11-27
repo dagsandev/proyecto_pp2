@@ -1,8 +1,13 @@
-﻿namespace RegisterLoginApp.Models.Dto
+﻿using System.ComponentModel.DataAnnotations;
+
+namespace RegisterLoginApp.Models.Dto
 {
     public class LoginRequest
     {
-        public string username { get; set; }
-        public string password { get; set; }
+        [Required]
+        public string Username { get; set; }
+
+        [Required]
+        public string Password { get; set; }
     }
 }

@@ -23,7 +23,7 @@ namespace RegisterLoginApp.Services
                 throw new InvalidOperationException("Usuario no encontrado");
             }
 
-            if (!VerifyPassword(password, user.password)) 
+            if (!VerifyPassword(password, user.Password)) 
             {
                 throw new InvalidOperationException("Contraseña incorrecta.");
             }
@@ -48,9 +48,9 @@ namespace RegisterLoginApp.Services
 
             var user = new UserModel
             {
-                fullname = fullname,
-                username = username,
-                password = hashedPassword // solo test, hay que encriptar password.
+                Fullname = fullname,
+                Username = username,
+                Password = hashedPassword // solo test, hay que encriptar password.
             };
 
             _userRepository.AddUser(user);
