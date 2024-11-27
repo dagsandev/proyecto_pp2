@@ -195,33 +195,3 @@ function mostrarHistorias(dia) {
 document.addEventListener("DOMContentLoaded", () => {
   mostrarHistorias("LUN");
 });
-
-
-/* publicación drama en comics.html */
-
-window.addEventListener('DOMContentLoaded', function() {
-  // Obtener los datos del localStorage
-  var pdfDrama = localStorage.getItem("pdfDrama");
-  var tituloDrama = localStorage.getItem("tituloDrama");
-
-  if (pdfDrama && tituloDrama) {
-      // Crear una tarjeta para el comic de Drama
-      var pdfCard = document.createElement("div");
-      pdfCard.classList.add("col");
-      pdfCard.innerHTML = `
-          <div class="card" style="width: 20rem;">
-              <embed src="${pdfDrama}" type="application/pdf" width="100%" height="300px">
-              <a href="#" target="_blank" rel="noopener noreferrer">
-                  <h3 class="card-title">${tituloDrama}</h3>
-              </a>
-              <p class="card-text">Género: Drama</p>
-          </div>
-      `;
-
-      // Añadir la tarjeta al contenedor de Drama
-      var generoDramaContainer = document.getElementById("dramaComics");
-      generoDramaContainer.appendChild(pdfCard);
-  } else {
-      alert("No hay contenido para el género Drama.");
-  }
-});
