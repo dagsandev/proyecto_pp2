@@ -8,6 +8,8 @@ Desarrollo de una aplicación académica para la materia Desarrollo de sistemas 
 * Daglio Santiago
 * Zamojski Paula
 
+* Backend realizado por: Daglio Santiago
+
 ## Tecnologías utilizadas
 * Javascript
 * HTML
